@@ -1,6 +1,10 @@
 module.exports = {
   plugins: {
-    'postcss-cssnext': {
+    'postcss-preset-env': {
+      stage: 3,
+      features: {
+        'color-mod-function': { unresolved: 'warn' }
+      },
       browsers: [
         'Firefox >= 58',
         'Chrome >= 62',

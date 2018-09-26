@@ -1,3 +1,20 @@
 {
-  "presets": ["react"]
+  "presets": [
+    ["env", {"modules": false}],
+    ["es2015", { "modules": false }],
+    "react"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd"
+      }
+    ],
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "transform-async-to-generator",
+    "transform-es2015-classes",
+    "react-hot-loader/babel"
+  ]
 }

@@ -1,0 +1,5 @@
+@import "./assets/theme.css";
+
+a:focus {
+    text-decoration: initial;
+}

@@ -1,0 +1,24 @@
+
+.Test {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0;
+}
+
+.Test > img {
+    width: 100px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Test > div {
+    font-size: 24px;
+    text-align: center;
+}
+
+.Test > div > span {
+    color: var(--color2);
+}
